@@ -1,6 +1,6 @@
 # FIN 570: Corporate Finance Lecture Videos
 
-## Recorded Via Clarion's Mediasite
+## Recorded Via Clarion's Mediasite (unfortunately requires login)
 
 [2/7/2013](http://msite.clarion.edu/Mediasite/Play/bf54ca1325ea45349f11efb7b0e719c31d)
 
@@ -22,7 +22,7 @@
 
 [5/2/2013](http://msite.clarion.edu/Mediasite/Play/60de24e6e922497ab2facb983f5a82711d)
 
-## Recorded Myself
+## Recorded Myself (freely available)
 
 [Capital Budgeting 1](https://www.youtube.com/watch?v=hOVwDvvgP_Q)
 
