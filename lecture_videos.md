@@ -24,5 +24,13 @@
 
 ## Recorded Myself
 
+[Capital Budgeting 1](https://www.youtube.com/watch?v=hOVwDvvgP_Q)
 
+[Capital Budgeting 2](https://www.youtube.com/watch?v=BtYQHSdyL5c)
+
+[Capital Budgeting 3](https://www.youtube.com/watch?v=RgQBTYpBh_g)
+
+[Capital Budgeting 4](https://www.youtube.com/watch?v=JFukJ0kHYB4)
+
+[Capital Budgeting 5](https://www.youtube.com/watch?v=QqXG-t4hviY)
 
