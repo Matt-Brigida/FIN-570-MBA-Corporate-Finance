@@ -30,9 +30,9 @@ Summer 2017
 
 **Important Dates**
 
-**Midterm Exam:**  2/11 @ 2:00pm EST
+**Midterm Exam:**  Due 6/24 @ 3:00pm EST
 
-**Final Exam:**  3/11 @ 2:00pm EST
+**Final Exam:**  Due 7/8 @ 3:00pm EST
 
 <center>
 **DESCRIPTION**
@@ -136,54 +136,60 @@ I have created a file for Q/A for this course https://github.com/finance-AI/data
 **HOMEWORK/POP QUIZZES/OTHER PARTICIPATION**
 </center>
 
-Throughout the semester I \emph{may** assign brief homeworks, or unannounced in-class quizzes.  The nature of these is usually to highlight an important point, or give the class extra practice on certain material.  You start with 10 final grade points, and your points are reduced the more you get incorrect.  However, for example, if I only assign two points of homework and no quizzes or other assignments, then you receive 8 points no matter what, and the remaining 2 points depend on the correctness of you answers.  
+Throughout the semester I \emph{may** assign brief homeworks, or unannounced in-class quizzes.  The nature of these is usually to highlight an important point, or give the class extra practice on certain material.  You start with 10 final grade points, and your points are reduced the more you get incorrect.  However, for example, if I only assign two points of homework and no quizzes or other assignments, then you receive 8 points no matter what, and the remaining 2 points depend on the correctness of you answers.
 
 <center>
 **OPTIONAL HOMEWORK**
 </center>
 
-I will post a set of optional homework questions.  These are end-of-chapter problems to be done in a spreadsheet.  The questions are very much like the spreadsheet problems which will be on the exam.  Also, on the exams you may use the spreadsheets that \emph{you** created to complete the optional homework questions.  Do not copy from another student's spreadsheet however.
-\begin{center**
+I will post a set of optional homework questions.  These are end-of-chapter problems to be done in a spreadsheet.  The questions are very much like the spreadsheet problems which will be on the exam.  Also, on the exams you may use the spreadsheets that *you* created to complete the optional homework questions.  Do not copy from another student's spreadsheet however.
+
+<center>
 **COURSE COMMUNICATION**
-\end{center**  
-All communication will be through D2L and email. If you have question you are strongly encouraged to post it to a discussion forum instead of emailing me.  This way, other students can get the benefit of the question and answer.  It also saves me from answering the same question many times via email, and frees me up to answer more questions and generally provide more effective instruction for you.  \\
-\\
-\begin{center**
-**GRADING**:\\
-Midterm Exam .........................................................   25\\
+</center>
 
-Final Exam ..............................................................  25\\
+All communication will be through D2L and email. If you have question you are strongly encouraged to post it to a discussion forum instead of emailing me.  This way, other students can get the benefit of the question and answer.  It also saves me from answering the same question many times via email, and frees me up to answer more questions and generally provide more effective instruction for you.
 
-% Project .....................................................................    20\/
+<center>
+**GRADING**
 
-Participation (D2L Discussion).................................   40\\
+```{r grading, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
+tabl <- "
+| Item | Points |
+| ---- | ------ |
+| Midterm Exam |  25 |
+| Final Exam |  25 | 
+| Participation (D2L Discussion) |    40 |
+| Homework/Pop Quizzes/Other Participation | 10 |
+| Total Points | 100 |
+"
+cat(tabl)
+```
+  
+</center>
 
-Homework/Pop Quizzes/Other Participation ..........   10\\
-
-Total Points ...........................................................  100\\
-\end{center**
-\begin{center**
+<center>
 **Final grades will be assigned according to the following scale**:
-\end{center**
-\begin{itemize**
-\item 90 - 100 A
-\item 80 - 89.9 B
-\item 70 - 79.9 C
-\item 60 - 69.9 D
-\item $<$ 60 F
-\end{itemize**
-\begin{center**
-**GENERAL NOTES**:
-\end{center**
-\begin{enumerate**
-\item All times referred to in this course are Eastern Standard---unless otherwise indicated.
-\item Attending the class, online discussion, and reading the text is required.
-\item There will be no make up exams or extra points assignments.
-\item Cheating will result in prosecution to the fullest extent possible under university rules.
-\item You are responsible for material covered in the online discussion, as well as text material.
-\item  **Internet Access:** This course requires that you have regular access to the internet to submit work.  You should not take this course if you plan on being in an area with insufficient internet access. ``My internet was down'' is not an acceptable reason to hand in late work.
-\item  **Adding or Dropping the Course:** To add or drop the course the student should consult the university guidelines and withdrawal dates. The course instructor is not involved in a student's adding or withdrawing from the course.
-\item **Software:** You will need word processing and spreadsheet software to take
+</center>
+
+- 90 - 100 A
+- 80 - 89.9 B
+- 70 - 79.9 C
+- 60 - 69.9 D
+- $<$ 60 F
+
+<center>
+**GENERAL NOTES**
+</center>
+
+- All times referred to in this course are Eastern Standard---unless otherwise indicated.
+- Attending the class, online discussion, and reading the text is required.
+- There will be no make up exams or extra points assignments.
+- Cheating will result in prosecution to the fullest extent possible under university rules.
+- You are responsible for material covered in the online discussion, as well as text material.
+-  **Internet Access:** This course requires that you have regular access to the internet to submit work.  You should not take this course if you plan on being in an area with insufficient internet access. ``My internet was down'' is not an acceptable reason to hand in late work.
+-  **Adding or Dropping the Course:** To add or drop the course the student should consult the university guidelines and withdrawal dates. The course instructor is not involved in a student's adding or withdrawing from the course.
+- **Software:** You will need word processing and spreadsheet software to take
 this course. Common examples of such software are Microsoft Word and
 Excel. However, there is no need to buy this software if you don't already
 have it. There are many free (open-source) alternatives which are just as
@@ -192,38 +198,32 @@ Some widely used free office suites are LibreOffice (http://www.libreoffice.org)
 and OpenOffice (http://www.openoffice.org). Feel free to download and use
 these. {\it In this course all word processed submissions should be in .pdf, and
 all spreadsheets should be submitted as .xlsx.**
-\end{enumerate**
-\begin{center**
-\pagebreak
-**TENTATIVE OUTLINE**
-\end{center**
-\begin{itemize**
-\item January 23: Chapters 1, 2 \& 3
-\item January 30: Chapter 4 \& 5
-\item February 6: Chapters 6 \& Section 7.3.  Also Assign Project \& Exam Review.
-\item February 11: Midterm Exam
-\item February 13: Chapters 10 \& 11
-\item February 20: Chapters 13\footnote{Chp. 13 requires you to calculate the yield-to-maturity (YTM) on a bond, which is a topic from FIN 370 and chapter 8 of the present text.  However, YTM is nothing more than the annualized internal rate of return (IRR) (we cover IRR in chapter 5 of the text) of the bond.  So list the cash flows of the bond and apply Excel's IRR() function.  Annualize the IRR by multiplying the value by the number of periods in a year.**
-\item February 27: Chapters 15 \& 16
-\item March 6:  Chapter 17 \& 19
-\item March 11:  Final Exam
-\end{itemize**
-\pagebreak
-\begin{center**
-**A Note on Spreadsheet Design**  
-\end{center**
-You should construct your spreadsheet as if you were an analyst at a company, and you were going to submit the spreadsheet to upper management.  Therefore, getting the correct answer can be considered the minimal amount of work.  The spreadsheet should be easily readable and organized.  There are a couple of reasons why this is important: (1) management often will check some numbers (or maybe change a few inputs if they have more up to date information) and it will reflect very poorly on you if they have to search around through a muddled and ill-conceived spreadsheet; and (2) anyone should be able to pick up your spreadsheet and complete it if you are not there (vacation, sick, or hopefully promoted).  Following are a couple tips on spreadsheet design, though it is far from exhaustive.\\
-\begin{itemize**
- \item Hard-code as little as possible.  You want a few cells for your inputs, or a place where you put your data, and then every other cell is linked and feeds off of these input cells. This way, to update your spreadsheet you simply change the inputs or drop in new data.  
-\item Take the time to label cells, and put in appropriate comments if necessary  - though comments should not be used excessively. Also, it is common to change the cell color depending on whether it is hard-coded (an input) or a formula.  This way you (or anyone else) can immediately look at a cell and tell whether it is one in which you can type (an input).  Don't forget to include a key.
-\item It is often better to add tabs to a spreadsheet than continue calculations on one tab.  You can easily page through spreadsheet tabs with `Ctrl+Shift' and `Page-up' or `Page-down'.  
-\item Pivot tables.  While we probably won't need them in this course, you should nonetheless get to know them.  Pivot tables are incredibly useful for summarizing data, and it is very possible you will be asked in an interview whether you are familiar with them.  Similarly, get to know VLOOKUP.
-\item  If you are inputting a long formula, then break the calculation into multiple cells.  This makes it much easier to tell where a mistake was made - and everyone always spends a fair amount of time looking for errors. 
-\item Excel has many built in formulas which can be useful, however it is important that you understand what the formula is doing to use them.  Blindly applying a formula can lead to trouble.  For example, if you use the IRR() function on cash flows with multiple roots, the formula will return the first root it finds without signaling to you that there are other roots.  Also, there are Excel formulas that are flat out incorrect - in particular the NPV() function.  So, use a function if it saves time, but first be sure you know what the function is doing and verify it works.  That said, in my experience it is better (and faster) to input your own formula instead of using Excel's.  You often have to break the calculation into a couple of steps, but this can be done quickly, and the result is a spreadsheet that you know works and is easily auditable. 
-\end{itemize**
-\end{document**
 
-%%% Local Variables:
-%%% mode: latex
-%%% TeX-master: t
-%%% End:
+<center>
+**TENTATIVE OUTLINE**
+</center>
+
+- June 5: Chapters 1, 2, 3 \& 4
+
+- June 12: Chapter 4, 5, \& 6
+
+- June 19: Chapters Section 7.3, \& 10  
+
+- June 26: Chapters 11, 13 (see note*), \& 15
+
+- July 3:  Chapters 16 \& 17
+
+*Chp. 13 requires you to calculate the yield-to-maturity (YTM) on a bond, which is a topic from FIN 370 and chapter 8 of the present text.  However, YTM is nothing more than the annualized internal rate of return (IRR) (we cover IRR in chapter 5 of the text) of the bond.  So list the cash flows of the bond and apply Excel's IRR() function.  Annualize the IRR by multiplying the value by the number of periods in a year.
+
+<center>
+**A Note on Spreadsheet Design**  
+</center>
+
+You should construct your spreadsheet as if you were an analyst at a company, and you were going to submit the spreadsheet to upper management.  Therefore, getting the correct answer can be considered the minimal amount of work.  The spreadsheet should be easily readable and organized.  There are a couple of reasons why this is important: (1) management often will check some numbers (or maybe change a few inputs if they have more up to date information) and it will reflect very poorly on you if they have to search around through a muddled and ill-conceived spreadsheet; and (2) anyone should be able to pick up your spreadsheet and complete it if you are not there (vacation, sick, or hopefully promoted).  Following are a couple tips on spreadsheet design, though it is far from exhaustive.
+
+- Hard-code as little as possible.  You want a few cells for your inputs, or a place where you put your data, and then every other cell is linked and feeds off of these input cells. This way, to update your spreadsheet you simply change the inputs or drop in new data.  
+- Take the time to label cells, and put in appropriate comments if necessary  - though comments should not be used excessively. Also, it is common to change the cell color depending on whether it is hard-coded (an input) or a formula.  This way you (or anyone else) can immediately look at a cell and tell whether it is one in which you can type (an input).  Don't forget to include a key.
+- It is often better to add tabs to a spreadsheet than continue calculations on one tab.  You can easily page through spreadsheet tabs with `Ctrl+Shift' and `Page-up' or `Page-down'.  
+- Pivot tables.  While we probably won't need them in this course, you should nonetheless get to know them.  Pivot tables are incredibly useful for summarizing data, and it is very possible you will be asked in an interview whether you are familiar with them.  Similarly, get to know VLOOKUP.
+-  If you are inputting a long formula, then break the calculation into multiple cells.  This makes it much easier to tell where a mistake was made - and everyone always spends a fair amount of time looking for errors. 
+- Excel has many built in formulas which can be useful, however it is important that you understand what the formula is doing to use them.  Blindly applying a formula can lead to trouble.  For example, if you use the IRR() function on cash flows with multiple roots, the formula will return the first root it finds without signaling to you that there are other roots.  Also, there are Excel formulas that are flat out incorrect - in particular the NPV() function.  So, use a function if it saves time, but first be sure you know what the function is doing and verify it works.  That said, in my experience it is better (and faster) to input your own formula instead of using Excel's.  You often have to break the calculation into a couple of steps, but this can be done quickly, and the result is a spreadsheet that you know works and is easily auditable. 
